@@ -7,7 +7,7 @@ Welcome to ZGB Students Management Tool!
 ZGB Students Management Tool is a C# WinForms application built on the .NET Framework which serves as the main tech-hub for the daily activities of a fictive educational institution from Romania.
 
 It supports three main user roles:
-	— Students
+	â€” Students
 	- Teachers
 	- Secretary 
 
@@ -37,7 +37,7 @@ The goal of this application is to centralize information and improve communicat
   - View grades and feedback
 
 - **Teacher Portal**:
-- Create and manage courses
+  - Create and manage courses
   - Upload course materials
   - Grade assignments and provide feedback
   - Post announcements
