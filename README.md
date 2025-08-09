@@ -20,11 +20,11 @@ The school has been facing challenges in efficiently managing course materials, 
 
 Currently, the processes are fragmented:
 
-Teachers store course files in personal folders with no centralized access
+- Teachers store course files in personal folders with no centralized access
 
-Students receive announcements through multiple channels (paper notes, social media groups, word-of-mouth), leading to missed deadlines
+- Students receive announcements through multiple channels (paper notes, social media groups, word-of-mouth), leading to missed deadlines
 
-The secretary handles administrative requests via phone or in-person visits, often causing delays
+- The secretary handles administrative requests via phone or in-person visits, often causing delays
 
 The goal of this application is to centralize information and improve communication by offering a single, user-friendly platform accessible from any school computer.
 
