@@ -28,42 +28,49 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.Student = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label34 = new System.Windows.Forms.Label();
+            this.label33 = new System.Windows.Forms.Label();
+            this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
+            this.citycombo = new System.Windows.Forms.ComboBox();
+            this.agecombo = new System.Windows.Forms.ComboBox();
             this.label18 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.addressbox = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.passwordbox = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.phonebox = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.emailbox = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.signin = new System.Windows.Forms.Button();
+            this.namebox = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.surnamebox = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.button3 = new System.Windows.Forms.Button();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.monthCalendar2 = new System.Windows.Forms.MonthCalendar();
+            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.label22 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.label32 = new System.Windows.Forms.Label();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.label17 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.textBox17 = new System.Windows.Forms.TextBox();
@@ -78,6 +85,12 @@
             this.label27 = new System.Windows.Forms.Label();
             this.textBox22 = new System.Windows.Forms.TextBox();
             this.label28 = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label20 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
@@ -86,17 +99,33 @@
             this.label30 = new System.Windows.Forms.Label();
             this.textBox23 = new System.Windows.Forms.TextBox();
             this.button5 = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.nameprob = new System.Windows.Forms.ErrorProvider(this.components);
+            this.surnameprob = new System.Windows.Forms.ErrorProvider(this.components);
+            this.ageprob = new System.Windows.Forms.ErrorProvider(this.components);
+            this.mailprob = new System.Windows.Forms.ErrorProvider(this.components);
+            this.passwordprob = new System.Windows.Forms.ErrorProvider(this.components);
+            this.phoneprob = new System.Windows.Forms.ErrorProvider(this.components);
+            this.cityprob = new System.Windows.Forms.ErrorProvider(this.components);
+            this.addressprob = new System.Windows.Forms.ErrorProvider(this.components);
+            this.birthprob = new System.Windows.Forms.ErrorProvider(this.components);
+            this.label35 = new System.Windows.Forms.Label();
+            this.label36 = new System.Windows.Forms.Label();
             this.Student.SuspendLayout();
             this.tabPage1.SuspendLayout();
-            this.tabPage2.SuspendLayout();
             this.panel1.SuspendLayout();
-            this.tabPage3.SuspendLayout();
+            this.tabPage2.SuspendLayout();
             this.panel2.SuspendLayout();
+            this.tabPage3.SuspendLayout();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nameprob)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.surnameprob)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ageprob)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mailprob)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.passwordprob)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.phoneprob)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cityprob)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.addressprob)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.birthprob)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -144,50 +173,81 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Students";
             // 
-            // tabPage2
-            // 
-            this.tabPage2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(216)))), ((int)(((byte)(199)))));
-            this.tabPage2.Controls.Add(this.panel2);
-            this.tabPage2.Controls.Add(this.button3);
-            this.tabPage2.Controls.Add(this.label13);
-            this.tabPage2.Controls.Add(this.label16);
-            this.tabPage2.Controls.Add(this.textBox12);
-            this.tabPage2.Controls.Add(this.textBox13);
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1730, 1005);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Teachers";
-            // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(79)))), ((int)(((byte)(68)))));
+            this.panel1.Controls.Add(this.label36);
+            this.panel1.Controls.Add(this.label35);
+            this.panel1.Controls.Add(this.label34);
+            this.panel1.Controls.Add(this.label33);
             this.panel1.Controls.Add(this.monthCalendar1);
-            this.panel1.Controls.Add(this.comboBox2);
-            this.panel1.Controls.Add(this.comboBox1);
+            this.panel1.Controls.Add(this.citycombo);
+            this.panel1.Controls.Add(this.agecombo);
             this.panel1.Controls.Add(this.label18);
             this.panel1.Controls.Add(this.label15);
             this.panel1.Controls.Add(this.label14);
             this.panel1.Controls.Add(this.label11);
-            this.panel1.Controls.Add(this.textBox10);
+            this.panel1.Controls.Add(this.addressbox);
             this.panel1.Controls.Add(this.label12);
-            this.panel1.Controls.Add(this.textBox7);
+            this.panel1.Controls.Add(this.passwordbox);
             this.panel1.Controls.Add(this.label9);
-            this.panel1.Controls.Add(this.textBox8);
+            this.panel1.Controls.Add(this.phonebox);
             this.panel1.Controls.Add(this.label10);
             this.panel1.Controls.Add(this.label7);
-            this.panel1.Controls.Add(this.textBox6);
+            this.panel1.Controls.Add(this.emailbox);
             this.panel1.Controls.Add(this.label8);
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.textBox4);
+            this.panel1.Controls.Add(this.signin);
+            this.panel1.Controls.Add(this.namebox);
             this.panel1.Controls.Add(this.label5);
-            this.panel1.Controls.Add(this.textBox3);
+            this.panel1.Controls.Add(this.surnamebox);
             this.panel1.Controls.Add(this.label6);
             this.panel1.Location = new System.Drawing.Point(789, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(927, 1005);
             this.panel1.TabIndex = 13;
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(216)))), ((int)(((byte)(199)))));
+            this.label34.Location = new System.Drawing.Point(376, 534);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(208, 13);
+            this.label34.TabIndex = 40;
+            this.label34.Text = "Note: Phone number should have 10 digits";
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(216)))), ((int)(((byte)(199)))));
+            this.label33.Location = new System.Drawing.Point(376, 640);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(438, 13);
+            this.label33.TabIndex = 39;
+            this.label33.Text = "Note: Address must contain: Strada ( Str/Strada),Bloc,(Bl/Bloc),Apartament(Ap/Apa" +
+    "rtament)";
+            // 
+            // monthCalendar1
+            // 
+            this.monthCalendar1.Location = new System.Drawing.Point(379, 662);
+            this.monthCalendar1.Name = "monthCalendar1";
+            this.monthCalendar1.TabIndex = 38;
+            // 
+            // citycombo
+            // 
+            this.citycombo.FormattingEnabled = true;
+            this.citycombo.Location = new System.Drawing.Point(379, 559);
+            this.citycombo.Name = "citycombo";
+            this.citycombo.Size = new System.Drawing.Size(165, 21);
+            this.citycombo.TabIndex = 37;
+            // 
+            // agecombo
+            // 
+            this.agecombo.FormattingEnabled = true;
+            this.agecombo.Location = new System.Drawing.Point(379, 348);
+            this.agecombo.Name = "agecombo";
+            this.agecombo.Size = new System.Drawing.Size(82, 21);
+            this.agecombo.TabIndex = 36;
             // 
             // label18
             // 
@@ -231,12 +291,12 @@
             this.label11.TabIndex = 24;
             this.label11.Text = "Address";
             // 
-            // textBox10
+            // addressbox
             // 
-            this.textBox10.Location = new System.Drawing.Point(379, 615);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(414, 20);
-            this.textBox10.TabIndex = 22;
+            this.addressbox.Location = new System.Drawing.Point(379, 615);
+            this.addressbox.Name = "addressbox";
+            this.addressbox.Size = new System.Drawing.Size(414, 20);
+            this.addressbox.TabIndex = 22;
             // 
             // label12
             // 
@@ -249,12 +309,12 @@
             this.label12.TabIndex = 23;
             this.label12.Text = "City";
             // 
-            // textBox7
+            // passwordbox
             // 
-            this.textBox7.Location = new System.Drawing.Point(379, 455);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(414, 20);
-            this.textBox7.TabIndex = 17;
+            this.passwordbox.Location = new System.Drawing.Point(379, 455);
+            this.passwordbox.Name = "passwordbox";
+            this.passwordbox.Size = new System.Drawing.Size(414, 20);
+            this.passwordbox.TabIndex = 17;
             // 
             // label9
             // 
@@ -267,12 +327,12 @@
             this.label9.TabIndex = 20;
             this.label9.Text = "Phone";
             // 
-            // textBox8
+            // phonebox
             // 
-            this.textBox8.Location = new System.Drawing.Point(379, 511);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(414, 20);
-            this.textBox8.TabIndex = 18;
+            this.phonebox.Location = new System.Drawing.Point(379, 511);
+            this.phonebox.Name = "phonebox";
+            this.phonebox.Size = new System.Drawing.Size(414, 20);
+            this.phonebox.TabIndex = 18;
             // 
             // label10
             // 
@@ -296,12 +356,12 @@
             this.label7.TabIndex = 16;
             this.label7.Text = "Email";
             // 
-            // textBox6
+            // emailbox
             // 
-            this.textBox6.Location = new System.Drawing.Point(379, 404);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(414, 20);
-            this.textBox6.TabIndex = 14;
+            this.emailbox.Location = new System.Drawing.Point(379, 404);
+            this.emailbox.Name = "emailbox";
+            this.emailbox.Size = new System.Drawing.Size(414, 20);
+            this.emailbox.TabIndex = 14;
             // 
             // label8
             // 
@@ -314,23 +374,24 @@
             this.label8.TabIndex = 15;
             this.label8.Text = "Age";
             // 
-            // button2
+            // signin
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(216)))), ((int)(((byte)(199)))));
-            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(57)))), ((int)(((byte)(48)))));
-            this.button2.Location = new System.Drawing.Point(387, 848);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(119, 55);
-            this.button2.TabIndex = 12;
-            this.button2.Text = "Sign in";
-            this.button2.UseVisualStyleBackColor = false;
+            this.signin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(216)))), ((int)(((byte)(199)))));
+            this.signin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(57)))), ((int)(((byte)(48)))));
+            this.signin.Location = new System.Drawing.Point(379, 851);
+            this.signin.Name = "signin";
+            this.signin.Size = new System.Drawing.Size(119, 55);
+            this.signin.TabIndex = 12;
+            this.signin.Text = "Sign in";
+            this.signin.UseVisualStyleBackColor = false;
+            this.signin.Click += new System.EventHandler(this.signin_Click);
             // 
-            // textBox4
+            // namebox
             // 
-            this.textBox4.Location = new System.Drawing.Point(379, 241);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(414, 20);
-            this.textBox4.TabIndex = 8;
+            this.namebox.Location = new System.Drawing.Point(379, 241);
+            this.namebox.Name = "namebox";
+            this.namebox.Size = new System.Drawing.Size(414, 20);
+            this.namebox.TabIndex = 8;
             // 
             // label5
             // 
@@ -343,12 +404,12 @@
             this.label5.TabIndex = 11;
             this.label5.Text = "Surname";
             // 
-            // textBox3
+            // surnamebox
             // 
-            this.textBox3.Location = new System.Drawing.Point(379, 297);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(414, 20);
-            this.textBox3.TabIndex = 9;
+            this.surnamebox.Location = new System.Drawing.Point(379, 297);
+            this.surnamebox.Name = "surnamebox";
+            this.surnamebox.Size = new System.Drawing.Size(414, 20);
+            this.surnamebox.TabIndex = 9;
             // 
             // label6
             // 
@@ -406,66 +467,31 @@
             this.textBox1.Size = new System.Drawing.Size(414, 20);
             this.textBox1.TabIndex = 8;
             // 
-            // tabPage3
+            // tabPage2
             // 
-            this.tabPage3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(216)))), ((int)(((byte)(199)))));
-            this.tabPage3.Controls.Add(this.panel3);
-            this.tabPage3.Location = new System.Drawing.Point(4, 22);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(1730, 1005);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Secretary";
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(57)))), ((int)(((byte)(48)))));
-            this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(216)))), ((int)(((byte)(199)))));
-            this.button3.Location = new System.Drawing.Point(1214, 521);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(119, 55);
-            this.button3.TabIndex = 17;
-            this.button3.Text = "Log In";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.UseWaitCursor = true;
-            this.button3.Visible = false;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Courier New", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(1026, 468);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(114, 23);
-            this.label13.TabIndex = 16;
-            this.label13.Text = "Password";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Courier New", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(1026, 412);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(75, 23);
-            this.label16.TabIndex = 15;
-            this.label16.Text = "Email";
-            // 
-            // textBox12
-            // 
-            this.textBox12.Location = new System.Drawing.Point(1214, 471);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(414, 20);
-            this.textBox12.TabIndex = 14;
-            // 
-            // textBox13
-            // 
-            this.textBox13.Location = new System.Drawing.Point(1214, 415);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(414, 20);
-            this.textBox13.TabIndex = 13;
+            this.tabPage2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(216)))), ((int)(((byte)(199)))));
+            this.tabPage2.Controls.Add(this.panel2);
+            this.tabPage2.Controls.Add(this.button3);
+            this.tabPage2.Controls.Add(this.label13);
+            this.tabPage2.Controls.Add(this.label16);
+            this.tabPage2.Controls.Add(this.textBox12);
+            this.tabPage2.Controls.Add(this.textBox13);
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(1730, 1005);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "Teachers";
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(79)))), ((int)(((byte)(68)))));
+            this.panel2.Controls.Add(this.monthCalendar2);
+            this.panel2.Controls.Add(this.comboBox4);
+            this.panel2.Controls.Add(this.label22);
+            this.panel2.Controls.Add(this.label31);
+            this.panel2.Controls.Add(this.textBox5);
+            this.panel2.Controls.Add(this.label32);
             this.panel2.Controls.Add(this.comboBox3);
             this.panel2.Controls.Add(this.label17);
             this.panel2.Controls.Add(this.label19);
@@ -485,6 +511,68 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(927, 1005);
             this.panel2.TabIndex = 18;
+            // 
+            // monthCalendar2
+            // 
+            this.monthCalendar2.Location = new System.Drawing.Point(329, 726);
+            this.monthCalendar2.Name = "monthCalendar2";
+            this.monthCalendar2.TabIndex = 44;
+            // 
+            // comboBox4
+            // 
+            this.comboBox4.FormattingEnabled = true;
+            this.comboBox4.Location = new System.Drawing.Point(329, 623);
+            this.comboBox4.Name = "comboBox4";
+            this.comboBox4.Size = new System.Drawing.Size(165, 21);
+            this.comboBox4.TabIndex = 43;
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Courier New", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(216)))), ((int)(((byte)(199)))));
+            this.label22.Location = new System.Drawing.Point(141, 726);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(127, 23);
+            this.label22.TabIndex = 42;
+            this.label22.Text = "BirthDate";
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Font = new System.Drawing.Font("Courier New", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(216)))), ((int)(((byte)(199)))));
+            this.label31.Location = new System.Drawing.Point(141, 676);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(101, 23);
+            this.label31.TabIndex = 41;
+            this.label31.Text = "Address";
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(329, 679);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(414, 20);
+            this.textBox5.TabIndex = 39;
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Font = new System.Drawing.Font("Courier New", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label32.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(216)))), ((int)(((byte)(199)))));
+            this.label32.Location = new System.Drawing.Point(141, 620);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(62, 23);
+            this.label32.TabIndex = 40;
+            this.label32.Text = "City";
+            // 
+            // comboBox3
+            // 
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Location = new System.Drawing.Point(329, 408);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(100, 21);
+            this.comboBox3.TabIndex = 36;
             // 
             // label17
             // 
@@ -575,7 +663,7 @@
             // 
             this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(216)))), ((int)(((byte)(199)))));
             this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(57)))), ((int)(((byte)(48)))));
-            this.button4.Location = new System.Drawing.Point(329, 632);
+            this.button4.Location = new System.Drawing.Point(329, 900);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(119, 55);
             this.button4.TabIndex = 12;
@@ -619,6 +707,63 @@
             this.label28.Size = new System.Drawing.Size(62, 23);
             this.label28.TabIndex = 10;
             this.label28.Text = "Name";
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(57)))), ((int)(((byte)(48)))));
+            this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(216)))), ((int)(((byte)(199)))));
+            this.button3.Location = new System.Drawing.Point(1214, 521);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(119, 55);
+            this.button3.TabIndex = 17;
+            this.button3.Text = "Log In";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.UseWaitCursor = true;
+            this.button3.Visible = false;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Courier New", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(1026, 468);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(114, 23);
+            this.label13.TabIndex = 16;
+            this.label13.Text = "Password";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Courier New", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(1026, 412);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(75, 23);
+            this.label16.TabIndex = 15;
+            this.label16.Text = "Email";
+            // 
+            // textBox12
+            // 
+            this.textBox12.Location = new System.Drawing.Point(1214, 471);
+            this.textBox12.Name = "textBox12";
+            this.textBox12.Size = new System.Drawing.Size(414, 20);
+            this.textBox12.TabIndex = 14;
+            // 
+            // textBox13
+            // 
+            this.textBox13.Location = new System.Drawing.Point(1214, 415);
+            this.textBox13.Name = "textBox13";
+            this.textBox13.Size = new System.Drawing.Size(414, 20);
+            this.textBox13.TabIndex = 13;
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(216)))), ((int)(((byte)(199)))));
+            this.tabPage3.Controls.Add(this.panel3);
+            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Size = new System.Drawing.Size(1730, 1005);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "Secretary";
             // 
             // panel3
             // 
@@ -702,35 +847,62 @@
             this.button5.Text = "Sign in";
             this.button5.UseVisualStyleBackColor = false;
             // 
-            // comboBox1
+            // nameprob
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(379, 348);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(82, 21);
-            this.comboBox1.TabIndex = 36;
+            this.nameprob.ContainerControl = this;
             // 
-            // comboBox2
+            // surnameprob
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(379, 559);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(165, 21);
-            this.comboBox2.TabIndex = 37;
+            this.surnameprob.ContainerControl = this;
             // 
-            // monthCalendar1
+            // ageprob
             // 
-            this.monthCalendar1.Location = new System.Drawing.Point(387, 662);
-            this.monthCalendar1.Name = "monthCalendar1";
-            this.monthCalendar1.TabIndex = 38;
+            this.ageprob.ContainerControl = this;
             // 
-            // comboBox3
+            // mailprob
             // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(329, 408);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(100, 21);
-            this.comboBox3.TabIndex = 36;
+            this.mailprob.ContainerControl = this;
+            // 
+            // passwordprob
+            // 
+            this.passwordprob.ContainerControl = this;
+            // 
+            // phoneprob
+            // 
+            this.phoneprob.ContainerControl = this;
+            // 
+            // cityprob
+            // 
+            this.cityprob.ContainerControl = this;
+            // 
+            // addressprob
+            // 
+            this.addressprob.ContainerControl = this;
+            // 
+            // birthprob
+            // 
+            this.birthprob.ContainerControl = this;
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(216)))), ((int)(((byte)(199)))));
+            this.label35.Location = new System.Drawing.Point(376, 427);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(175, 13);
+            this.label35.TabIndex = 41;
+            this.label35.Text = "Note: Email should be - sth@sth.sth";
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(216)))), ((int)(((byte)(199)))));
+            this.label36.Location = new System.Drawing.Point(376, 478);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(533, 13);
+            this.label36.TabIndex = 42;
+            this.label36.Text = "Note: Password should have min:  6 -50 characters, 1 Upper Character, 1 Digit, 1 " +
+    "Special Character( !,@,#, etc)";
             // 
             // Home
             // 
@@ -746,15 +918,24 @@
             this.Student.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
-            this.tabPage2.ResumeLayout(false);
-            this.tabPage2.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.tabPage3.ResumeLayout(false);
+            this.tabPage2.ResumeLayout(false);
+            this.tabPage2.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            this.tabPage3.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nameprob)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.surnameprob)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ageprob)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mailprob)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.passwordprob)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.phoneprob)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cityprob)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.addressprob)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.birthprob)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -771,19 +952,19 @@
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox addressbox;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox passwordbox;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox phonebox;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox emailbox;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.Button signin;
+        private System.Windows.Forms.TextBox namebox;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox surnamebox;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label4;
@@ -820,10 +1001,29 @@
         private System.Windows.Forms.Label label30;
         private System.Windows.Forms.TextBox textBox23;
         private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox agecombo;
         private System.Windows.Forms.MonthCalendar monthCalendar1;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox citycombo;
         private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.MonthCalendar monthCalendar2;
+        private System.Windows.Forms.ComboBox comboBox4;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.Label label32;
+        private System.Windows.Forms.ErrorProvider nameprob;
+        private System.Windows.Forms.ErrorProvider surnameprob;
+        private System.Windows.Forms.ErrorProvider ageprob;
+        private System.Windows.Forms.ErrorProvider mailprob;
+        private System.Windows.Forms.ErrorProvider passwordprob;
+        private System.Windows.Forms.ErrorProvider phoneprob;
+        private System.Windows.Forms.ErrorProvider cityprob;
+        private System.Windows.Forms.ErrorProvider addressprob;
+        private System.Windows.Forms.ErrorProvider birthprob;
+        private System.Windows.Forms.Label label33;
+        private System.Windows.Forms.Label label34;
+        private System.Windows.Forms.Label label35;
+        private System.Windows.Forms.Label label36;
     }
 }
 
